@@ -20,7 +20,6 @@ irm https://astral.sh/uv/install.ps1 | iex
 ## 2. Launch Jupyter Notebook
 From the root of the repository, run:
 ```bash
-cd labs/lab1
 uv run --locked jupyter notebook lab1-student.ipynb
 ```
 A browser window should open automatically- this is where you will be working.
