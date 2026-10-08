@@ -5,6 +5,7 @@ But before you can run, you need to walk! This lab will teach you the absolute b
 ## Part I: Introduction to Typescript
 
 ### On Background
+this—
 
 **This lab will assume you have a basic familiarity with object-oriented languages, and some notion of what a 'type' is (though we can argue about that all day).** You don't NEED to have seen JavaScript before, but it sure is helpful, and we'll be introducing TypeScript in a manner mostly contextualized by JavaScript.
 
@@ -188,6 +189,15 @@ The below tasks are written into this document, but you can copy them over to th
 ### Task 1.1: Type that function!
 
 > **Task:** Using TypeScript, write a function that takes in an array of numbers and returns the sum of every number in the array. Make sure to explicitly type your parameters and variables. 
+
+Test it (replace `sum` with your function name):
+
+```ts
+console.log(sum([1, 2, 3])); // 6
+console.log(sum([])); // 0
+console.log(sum([-5, 5, 10])); // 10
+sum(["1", 2]); // should error
+```
 ### Task 1.2: *Type* that function!
 
 > **Task:** Below is a JavaScript function that has some unexpected behavior due to JavaScript's quirks. Explicitly type it so it returns an expected number value. 
@@ -200,6 +210,14 @@ function addTax(price, taxRate) {
 
 console.log(addTax(20, 0.1));
 console.log(addTax("20", 0.1));
+```
+
+After you add types, the first call prints `22` and the string call is a type error:
+
+```ts
+console.log(addTax(20, 0.1)); // 22
+console.log(addTax(100, 0)); // 100
+addTax("20", 0.1); // should error
 ```
 
 ### Asynchronous Programming
@@ -249,7 +267,7 @@ groceryTrip();
 
 ### Task 1.3: (a)Wait for me, I'm coming!
 
-**Task:** Write an async function titled `showUser(id:number)` that awaits the `fetchUser(id)` function below and logs `Found: <name>`. Add an explicit return type. 
+**Task:** Write an async function titled `showUsers(ids: number[])` that fetches every user with the `fetchUser(id)` function below at the same time (hint: `Promise.all`) and logs `Found: <name>` for each one. Add an explicit return type. 
 
 ```ts
 type User = {id: number; name: string};
@@ -259,6 +277,12 @@ function fetchUser(id: number): Promise<User> {
 		setTimeout(() => resolve({id, name: `User #${id}`}), 500);
 	});
 }
+```
+
+Test it (add after your function):
+
+```ts
+showUsers([1, 2, 3]); // Found: User #1, #2, #3
 ```
 
 Great job! You now (hopefully) know all the TypeScript you'll need for this lab and assignment. Feel free to come back to this lab as future reference for your TypeScript needs, or (even better) ask a TA!
