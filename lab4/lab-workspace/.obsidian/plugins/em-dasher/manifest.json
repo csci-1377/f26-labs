@@ -1,0 +1,9 @@
+{
+  "id": "em-dasher",
+  "name": "Em Dasher",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Replaces --- with an em dash as you type.",
+  "author": "CSCI 1377",
+  "isDesktopOnly": false
+}

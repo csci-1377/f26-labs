@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "7b274bd59efe726e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6857d9b16e64f37e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52e42f87c3ad9ee9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab 4 - Obsidian!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lab 4 - Obsidian!"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b2f27aea4fe44d42",
+    "type": "split",
+    "children": [
+      {
+        "id": "d90394475c397db3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f81730c4a220709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f66f95c49bc0fd81",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7964540baee23b3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "49f52421d228d58f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5106b8f37bd8fb05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "430120de440daed4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lab 4 - Obsidian!.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "87ab4509e5c7422b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lab 4 - Obsidian!.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "90ce473880b1417b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1d4ed00648efc5ce",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9928c24b699e65b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lab 4 - Obsidian!.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "52e42f87c3ad9ee9",
+  "lastOpenFiles": [
+    "images",
+    "images/Pasted image 20261008161543.png",
+    "images/Pasted image 20261007005922.png",
+    "Pasted image 20261007005940.png",
+    "Lab 4 - Obsidian!.md",
+    "Lab 4 - Obsidian!.md.tmp.44186.ae4ded7f71b9",
+    "Lab 4 - Obsidian!.md.tmp.44186.63da3035254d",
+    "Lab 4 - Obsidian!.md.tmp.44186.2d2cc6f87a71",
+    "Lab 4 - Obsidian!.md.tmp.44186.075176139249",
+    "Lab 4 - Obsidian!.md.tmp.44186.12719de651eb",
+    "images/ice-cream-on-beach-3853031791.jpg",
+    "Lab 4 - Obsidian!.md.tmp.41522.53a0f5d2deb8",
+    "Lab 4 - Obsidian!.md.tmp.41522.7c14e8f9f450",
+    "Lab 4 - Obsidian!.md.tmp.41522.81227282d3fd",
+    "snowcones.jpg",
+    "Lab 4 - Obsidian!.md.tmp.33936.cb83296dd08a",
+    "Lab 4 - Obsidian!.md.tmp.33936.ccfc91f213b9",
+    "Welcome.md"
+  ]
+}
