@@ -51,6 +51,22 @@ Arrays are declared similarly to variables, just with brackets after the type de
 let grades: number[] = [98, 86, 74]; 
 ```
 
+### Loops
+
+Loops are similar to loops in Java or other languages, but can also use the `of` keyword on a list
+
+```ts
+// Valid loop syntax
+for(let i = 0; i < top; i++) {
+
+}
+
+// Also valid loop syntax
+for(loopItem of loopList) {
+	loopItem.thing()
+}
+```
+
 ### Functions
 
 Functions are declared using the `function` keyword and have inputs that are typed in a similar manner to declared variables and constants. Notice in the example below that the function itself is typed with its expected return type.
