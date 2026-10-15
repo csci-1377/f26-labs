@@ -1,0 +1,17 @@
+[project]
+name = "visualization-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=6.2.2",
+    "jupyter>=1.1.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+    "pydytuesday>=0.1.2",
+    "ruff>=0.16.6",
+    "vegafusion>=2.0.3",
+    "vl-convert-python>=1.9.0.post1",
+]
